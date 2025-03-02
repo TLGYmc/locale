@@ -8,7 +8,7 @@
 	"commands.blacklist.no_members": "Мораш да поменеш корисника да промени стање црне листе за",
 	"commands.blacklist.self": "Не можеш се ставити на црну листу",
 	"commands.claim.success": "Ваш улазницу ће носити %s",
-	"commands.invite": "[Кликни овде](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Кликни овде](<https://discord.com/oauth2/authorize?client_id=1327823425309511731&permissions=8&integration_type=0&scope=bot>)",
 	"commands.language.invalid": "Мораш да одредиш језик или заставу. Доступни језици:\\n%s",
 	"commands.open.ticket_limit": "Можеш само да отвориш %d%s cместа",
 	"commands.open.too_many_tickets": "Има превише карата у категорији карата. Замолите администрацију да затвори неке, или да их пребаци у другу категорију",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Идентификација не може бити дужа од 16 знакова",
 	"commands.tags.delete.invalid_arguments": "Морате одредити идентификацију и садржај",
 	"commands.tags.delete.not_exist": "Етикета са идентификацијом `%s` цоулд нот бе фоунд",
-	"commands.tags.get.invalid_arguments": "Морате да ми дате идентификацију етикете. За више помоћи са ознаком, посетите <https://ticketsbot.net/tags>.",
-	"commands.tags.get.invalid_tag": "Неважећа ознака. За више помоћи с ознакама, посјетите <https://ticketsbot.net/tags>.",
+	"commands.tags.get.invalid_arguments": "Морате да ми дате идентификацију етикете. За више помоћи са ознаком, посетите <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Неважећа ознака. За више помоћи с ознакама, посјетите <https://ticketsbot.cloud/tags>.",
 	"commands.tags.list": "Исправе за све ознаке:\\n%s\\nДа бисте видели садржај етикете, бежите. `%sОзнака <ID>`",
 	"commands.unclaim.not_claimed": "Ова карта се не тражи",
 	"commands.unclaim.not_claimer": "Само администратори и корисник који је тражио карту могу да одбију карту",
@@ -222,7 +222,7 @@
 			"select": "Изабери језик (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "'/ на позив' се може користити само у начину. Посетите наше [docs](https://docs.ticketsbot.net/features/thread-mode) да сазнате више о нити",
+			"channel_mode": "'/ на позив' се може користити само у начину. Посетите наше [docs](https://docs.ticketsbot.cloud/features/thread-mode) да сазнате више о нити",
 			"success": "Сада сте на дужности",
 			"remove_success": "Ниси више на дужности"
 		},

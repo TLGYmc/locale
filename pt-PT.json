@@ -8,7 +8,7 @@
 	"commands.blacklist.no_members": "Tu precisas de mencionar um utilizador para alterar o estado da lista negra para",
 	"commands.blacklist.self": "Não te podes colocar a ti mesmo na lista negra",
 	"commands.claim.success": "O teu bilhete será tratado por %s",
-	"commands.invite": "[Clica aqui](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Clica aqui](<https://discord.com/oauth2/authorize?client_id=1327823425309511731&permissions=8&integration_type=0&scope=bot>)",
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Tu só podes abrir %d %s de uma só vez",
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "IDs de etiquetas não podem ter mais de 16 caracteres",
 	"commands.tags.delete.invalid_arguments": "Tu tens que especificar o ID de uma etiqueta para apagar",
 	"commands.tags.delete.not_exist": "Uma etiqueta com o ID `%s` não pôde ser encontrada",
-	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <https://ticketsbot.net/tags>.",
-	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <https://ticketsbot.net/tags>.",
+	"commands.tags.get.invalid_arguments": "Tu tens de fornecer o ID da etiqueta. Para mais ajuda com etiquetas, visita <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Etiqueta inválida. Para mais ajuda com etiquetas, visita <https://ticketsbot.cloud/tags>.",
 	"commands.tags.list": "IDs para todas as etiquetas: \\n%s\\nPara ver o conteúdo de uma etiqueta, executa `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Este bilhete não foi reivindicado",
 	"commands.unclaim.not_claimer": "Apenas administradores e o utilizador que reivindicou o bilhete podem cancelar a reivindicação do bilhete",
@@ -222,7 +222,7 @@
 			"select": "Seleciona um idioma (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](https://docs.ticketsbot.net/features/thread-mode) para saberes mais sobre tópicos",
+			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](https://docs.ticketsbot.cloud/features/thread-mode) para saberes mais sobre tópicos",
 			"success": "Tu estás agora em alerta",
 			"remove_success": "Tu não estás mais em alerta"
 		},

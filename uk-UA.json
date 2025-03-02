@@ -8,11 +8,11 @@
 	"commands.blacklist.no_members": "Вам потрібно вказати користувача, щоб перемикнути стан чорного списку для",
 	"commands.blacklist.self": "Ви не можете заблокувати самого себе",
 	"commands.claim.success": "Вашу заявку обробляє %s",
-	"commands.invite": "[Натисніть сюди](<https://invite.ticketsbot.net>)",
+	"commands.invite": "[Натисніть сюди](<https://discord.com/oauth2/authorize?client_id=1327823425309511731&permissions=8&integration_type=0&scope=bot>)",
 	"commands.language.invalid": "Вам необхідно вказати код мови або прапор. Доступні мови:\\n%s",
 	"commands.open.ticket_limit": "Ви можете відкрити тільки %d %s одночасно",
 	"commands.open.too_many_tickets": "У категорії заявок занадто багато заявок. Попросіть адміністратора закрити деякі з них або перемістити їх в іншу категорію",
-	"commands.panel": "Перейдіть за посиланням <https://dashboard.ticketsbot.net/manage/%d/panels>, щоб налаштувати панель",
+	"commands.panel": "Перейдіть за посиланням <https://tickets-dashboard.tlgy.lol/manage/%d/panels>, щоб налаштувати панель",
 	"commands.premium": "Ви можете придбати преміум підписку на <https://www.patreon.com/ticketsbot>.\\nПреміум надає багато переваг, зокрема:\\n```diff\\n+ Створення безлічі панелей заявок\\n+ Редагування імені, аватару та статусу бота(whitelabel)\\n+ Детальна статистика про сервер, користувачів та персонал підтримки\\n+ Прибираються знаки організації в колонтитулі повідомлень\\n+ Підтримка розробки та допомога мені в сплаті рахунків за утримання сервера\\n```\\n\\n Крім того, ви можете проголосувати на <https://vote.ticketsbot.net> щоб отримати безкоштовний преміум на 24 години",
 	"commands.premium.invalid_key": "Невірний ключ. Переконайтеся, що ви скопіювали його правильно.",
 	"commands.remove.no_permission": "У вас недостатньо прав щоб видаляти людей з даної заявки",
@@ -28,8 +28,8 @@
 	"commands.tags.create.too_long": "Довжина ідентифікаторів тегів не може перевищувати 16 символів",
 	"commands.tags.delete.invalid_arguments": "Ви повинні вказати ідентифікатор тега для видалення",
 	"commands.tags.delete.not_exist": "Не вдалося знайти тег з ідентифікатором `%s`",
-	"commands.tags.get.invalid_arguments": "Ви повинні вказати ідентифікатор тега. Для отримання додаткової допомоги з тегом відвідайте <https://ticketsbot.net/tags>.",
-	"commands.tags.get.invalid_tag": "Неприпустимий тег. Для отримання додаткової допомоги з тегами відвідайте <https://ticketsbot.net/tags>.",
+	"commands.tags.get.invalid_arguments": "Ви повинні вказати ідентифікатор тега. Для отримання додаткової допомоги з тегом відвідайте <https://ticketsbot.cloud/tags>.",
+	"commands.tags.get.invalid_tag": "Неприпустимий тег. Для отримання додаткової допомоги з тегами відвідайте <https://ticketsbot.cloud/tags>.",
 	"commands.tags.list": "ID для всіх тегів: \\n%s\\nДля перегляду вмісту тегу, запустіть `%sтег<ID>`",
 	"commands.unclaim.not_claimed": "Ця заявка не прийнята",
 	"commands.unclaim.not_claimer": "Тільки адміни й користувач прийняв заявку може її відхилити",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "Канал з журналом дій був змінений на <#%d>",
 	"commands.language.help_wanted": "Говорите іншою мовою? Приєднуйтеся до нашого [сервера допомоги](https://discord.gg/bh6aAfP) якщо ви цікавитеся допомогою в перекладанні боті на інші мови",
 	"commands.rename.too_long": "Назва каналу не може бути довшою за 100 символів",
-	"commands.autoclose.configure": "Відвідайте [dashboard](https://panel.ticketsbot.net/manage/%d/settings) щоб змінити параметри автозакриття заявки",
+	"commands.autoclose.configure": "Відвідайте [dashboard](https://tickets-dashboard.tlgy.lol/manage/%d/settings) щоб змінити параметри автозакриття заявки",
 	"help.autoclose": "Команди пов'язані з авто закриттям",
 	"help.autoclose.exclude": "Виключає дану заявку від автоматичного закриття",
 	"help.autoclose.configure": "Редагувати Налаштування автозакриття",
@@ -222,7 +222,7 @@
 			"select": "Оберіть мову (%c-%c)"
 		},
 		"on_call": {
-			"channel_mode": "`/on-call` може використовуватись лише у режимі гілки. Відвідайте нашу [документацію](https://docs.ticketsbot.net/features/thread-mode), щоб дізнатися більше про гілки",
+			"channel_mode": "`/on-call` може використовуватись лише у режимі гілки. Відвідайте нашу [документацію](https://docs.ticketsbot.cloud/features/thread-mode), щоб дізнатися більше про гілки",
 			"success": "Ви зараз в дзвінку",
 			"remove_success": "Ви більше не в дзвінку"
 		},
@@ -266,7 +266,7 @@
 			},
 			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://ticketsbot.net/premium) щоб дізнатися більше.",
 			"already_activated": "Гарні новини! Premium вже активний на цьому сервері.",
-			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.cloud/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
 			},
